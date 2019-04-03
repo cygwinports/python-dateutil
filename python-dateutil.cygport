@@ -1,0 +1,16 @@
+ORIG_PN="python-dateutil"
+inherit python-wheel
+
+NAME="python-dateutil"
+VERSION=2.8.0
+RELEASE=1
+CATEGORY="Python"
+SUMMARY="Extensions to Python datetime module"
+DESCRIPTION="The dateutil module provides powerful extensions to the standard
+datetime module, available in Python."
+
+ARCH=noarch
+
+python27_dateutil_REQUIRES="tzdata"
+python36_dateutil_REQUIRES="tzdata"
+python37_dateutil_REQUIRES="tzdata"
